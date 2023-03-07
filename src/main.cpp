@@ -31,7 +31,7 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Here, have a donut!", 85, 10, 30, LIGHTGRAY);
+            DrawText("Here, you've earned yourself a donut!", 85, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 70, WHITE);
 
         EndDrawing();
