@@ -17,7 +17,7 @@ int main() {
     // Your own initialization code here
     // ...
     // ...
-    Texture2D myTexture = LoadTexture("assets/graphics/testimage.png");
+    Texture2D myTexture = LoadTexture("assets/graphics/do_nut_lol.png");
 
     // Main game loop
     while (!WindowShouldClose()) // Detect window close button or ESC key
@@ -31,8 +31,8 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Here, have a donut!", 10, 10, 30, LIGHTGRAY);
-            DrawTexture(myTexture, 10, 100, WHITE);
+            DrawText("Here, have a donut!", 85, 10, 30, LIGHTGRAY);
+            DrawTexture(myTexture, 10, 70, WHITE);
 
         EndDrawing();
     } // Main game loop end
