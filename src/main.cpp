@@ -31,8 +31,9 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
-            DrawText("Here, have a donut!", 85, 10, 30, LIGHTGRAY);
-            DrawTexture(myTexture, 10, 70, WHITE);
+            DrawText("Do Nut, or not Do Nut?", 85, 10, 30, LIGHTGRAY);
+            DrawTexture(myTexture, 10, 40, WHITE);
+            DrawText("That is the question", 85, 500, 30, LIGHTGRAY);
 
         EndDrawing();
     } // Main game loop end
