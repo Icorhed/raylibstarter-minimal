@@ -32,6 +32,7 @@ int main() {
             // ...
             ClearBackground(WHITE);
 <<<<<<< HEAD
+<<<<<<< HEAD
             DrawText("Do Nut, or not Do Nut?", 85, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 40, WHITE);
             DrawText("That is the question", 85, 500, 30, LIGHTGRAY);
@@ -39,6 +40,10 @@ int main() {
             DrawText("Hello, world!", 10, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 100, WHITE);
 >>>>>>> parent of fcbd881 (Updated message)
+=======
+            DrawText("Here, you've earned yourself a donut!", 85, 10, 30, LIGHTGRAY);
+            DrawTexture(myTexture, 10, 70, WHITE);
+>>>>>>> 80f355988e666fe84e298e047b2bc6ccfd442bd7
 
         EndDrawing();
     } // Main game loop end
