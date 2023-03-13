@@ -31,9 +31,14 @@ int main() {
             // ...
             // ...
             ClearBackground(WHITE);
+<<<<<<< HEAD
             DrawText("Do Nut, or not Do Nut?", 85, 10, 30, LIGHTGRAY);
             DrawTexture(myTexture, 10, 40, WHITE);
             DrawText("That is the question", 85, 500, 30, LIGHTGRAY);
+=======
+            DrawText("Hello, world!", 10, 10, 30, LIGHTGRAY);
+            DrawTexture(myTexture, 10, 100, WHITE);
+>>>>>>> parent of fcbd881 (Updated message)
 
         EndDrawing();
     } // Main game loop end
